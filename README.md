@@ -10,6 +10,19 @@ Qiskit is a great tool to start learning Quantum Algorithms and understanding th
 
 # Bernstein-Vazirani Algorithm
 
+![image](https://qiskit.org/textbook/ch-algorithms/images/bv1.png)
+
+This algorithm is used to find a number in a black box. Consider black box as a hardware which you can connect input and get the output out of it but you cannot see the inside.
+
+Consider a “n” bit number is stored in that hardware, the goal is to find that number without looking into the hardware.
+
+Classical scheme:
+Consider we have a 5-bit number - - - - -. what we can do is to do “AND” operation of the output with 
+{10000,01000,00100,00010,00001}. Here after 5 trial, a classical scheme can guess the number correctly.
+
+Quantum scheme:
+The difference here is that we can (in one shot) guess the number correctly and we do that by considering all the possibilities of the result. If our inputs were in the state (|0> + |1>) /√2   then the output would be all the possible answers including the correct number. 
+
 in this algorithm one can see the advantages of Quantum Computers over Classical Computers 
 
 this algorithm aims to make a correct guess about an unknown number 
