@@ -37,4 +37,10 @@ But, Quantum Computers can find the number just in one shot
 
 In the repeater file you can find the implementation of a Quantum repeater using Qiskit tool with noise 
 
+Including 
+1. Quantum Fourier Transform
+2. Quantum Teleportation
+3. Quantum Entanglement Swapping
+4. Quantum Purification
+
 ref : https://arxiv.org/pdf/2009.04584.pdf
